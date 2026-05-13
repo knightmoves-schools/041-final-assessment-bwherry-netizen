@@ -1,4 +1,3 @@
--- 1. Create Recipe table
 CREATE TABLE Recipe (
     id INT NOT NULL UNIQUE,
     name TEXT NOT NULL,
