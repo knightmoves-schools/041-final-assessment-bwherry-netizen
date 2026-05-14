@@ -3,7 +3,6 @@ CREATE TABLE Recipe (
     name TEXT NOT NULL,
     description TEXT,
     instructions TEXT,
-    rating INT 
-    CHECK (rating IN (1,2,3,4,5)),
+    rating INT CHECK (RATING IN (1, 2, 3, 4, 5)),
     PRIMARY KEY (id)
 );
