@@ -1,1 +1,1 @@
---Add Your SQL Here
+ALTER TABLE Pantry ADD COLUMN Expire TEXT DEFAULT '1/1/1970';
