@@ -10,3 +10,4 @@ JOIN Ingredient
 JOIN Measure
     ON RecipeIngredient.measure_id = Measure.id
 WHERE Recipe.name = 'French Toast';
+

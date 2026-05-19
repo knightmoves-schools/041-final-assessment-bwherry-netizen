@@ -1,7 +1,7 @@
 SELECT 
     Ingredient.name AS Ingredient,
     Measure.name AS Measure,
-    RecipeIngredient.amount * 4 AS "Four Servings"
+    RecipeIngredient.amount / 2 AS "half serving"
 FROM RecipeIngredient
 JOIN Recipe
     ON RecipeIngredient.recipe_id = Recipe.id
